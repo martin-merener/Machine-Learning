@@ -13,4 +13,4 @@ Briefly, the algorithm does the following:
 
 
 
-contact me: martin.merener@gmail.com
+To contact me: martin.merener@gmail.com
