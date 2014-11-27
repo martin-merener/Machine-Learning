@@ -32,9 +32,8 @@ binaryLabels = [0 1]; % either: [-1 1], or [0 1]. *** WITH MULTICLASS, USE 0,1 L
 % end
 
 % Partition into train and test
-pct = 0.20;
 useLabel = 1;
-[testSet, trainSet] = partitionDataSet(trainSet, pct, useLabel);
+[testSet, trainSet] = separateData(trainSet, 0.20, useLabel); % 20% of data points used for testing
 
 % Separate points from labels
 X_train = trainSet(:,1:end-1);
