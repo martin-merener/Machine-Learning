@@ -11,6 +11,6 @@ Briefly, the algorithm does the following:
 
 2.2) Compute centroids (compute centers of each cluster) 
 
-
+The code contains a function that generates training and testing points to try the code.
 
 To contact me: martin.merener@gmail.com
