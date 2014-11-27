@@ -24,7 +24,7 @@ Some specifications:
 7) Other parameters: time bound; iteration bound; weight change bound; regularizer. 
 
 
-The directory includes a trainSet.csv file with data (42000) points, which first 10 columns are features and the last column is a class (digits: 0,...,9).
+The directory includes a trainSet.csv file with data (42000) points, which first 10 columns are features and the last column is a class (digits: 0,...,9). The script will partition this data set into training and testing, and run the algorithm.
 
 
 To contact me: martin.merener@gmail.com
