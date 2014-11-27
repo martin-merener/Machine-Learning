@@ -6,4 +6,4 @@ LogisticRegBinarySGD.m solves binary classification problem with Logistic Regres
 LogisticRegBinarySGD.m solves binary classification problem with Logistic Regression via Stochastic Gradient Descent using epocs.
 
 
-Contact me: martin.merener@gmail.com
+To contact me: martin.merener@gmail.com
