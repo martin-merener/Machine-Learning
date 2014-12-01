@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function K = gauss_kXY_large(X,Y) 
 % Computes the Kernel matrix when the number of points is large, but subdividing 
 % the input matrices into submatrices and putting the resulting pieces together.

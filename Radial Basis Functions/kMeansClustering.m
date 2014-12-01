@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [bestCost,bestIdx,bestCentroids] = kMeansClustering(X,K)
 %Given the training points, and the number of clusters, it returns the
 %cost, the centroids, and the clusters given by the best initialization

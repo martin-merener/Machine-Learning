@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % RADIAL BASIS FUNCTIONS (for classification and regression)
 % 
 % The hypothesis function is of the form: h(x) = sum_{j=1}^K w_j*R_j(norm(x-mu_j))

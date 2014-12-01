@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % Script implementing 'Training a Support Vector Machine in the Primal', by Olivier Chapelle
 % Binary and Multiclass, non-linearly separable classes, via Kernels and Conjugate Gradient.
 

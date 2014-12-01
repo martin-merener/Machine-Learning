@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function K = cauchy_kXY(X,Y) 
 % Cauchy Kernel is: k(x,y) = 1/(1+norm(x-y)^2/a)
 % The output here is: K_ij = k(X(i,:),Y(j,:))

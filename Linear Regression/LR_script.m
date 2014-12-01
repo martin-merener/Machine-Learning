@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % Multivariate Linear Regression
 
 clear all

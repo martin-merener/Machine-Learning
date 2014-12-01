@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function gammas_final = findsGammasViaMyCG(w,gammas,NXMU,Y)
 % this function will find the optimal gammas that minimizes the function costGradCost(w,gammas,NXMU,Y), for the given w.
 

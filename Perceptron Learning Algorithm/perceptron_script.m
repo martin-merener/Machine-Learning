@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % Testing PLA with uniformly distributed data, and a perfectly linear
 % (random) target function.
 

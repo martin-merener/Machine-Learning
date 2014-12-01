@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 function errors = kNN_learning(X, Y, Ks, estimationType)
 % This function gives the optimal k for kNN. It is based on leave-one-out applied to the training set.
 

@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [nu,W1] = variableLearning(nu,W0,alpha,beta,X_train,Y_train,lambda,direction,mu)
 % gives [nu,W1] where: in-sample(W1)<in-sample(W0)+mu, and W1=W0-nu*grad.
 

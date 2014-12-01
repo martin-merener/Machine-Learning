@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function idx = findClosestCentroids(X, centroids)
 %computes the centroid memberships for every example
 %idx gives the closest centroid to each point in X

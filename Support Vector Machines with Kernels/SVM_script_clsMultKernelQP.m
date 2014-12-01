@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % Script implementing 'Support Vector Machines Explained', by Tristan Fletcher
 % Binary and Multiclass, non-linearly separable classes, via Kernels and QP.
 

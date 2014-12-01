@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % Maximal Information Coefficient
 % From: Detecting Novel Associations in Large Datasets
 %   at: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325791/

@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [cost,grad] = costGradCost(w,gammas,NXMU,Y)
 % Computes the cost and its grad (with respect to gammas), everything else
 % fixed, where the cost is defined as: mean(y_i-h(x_i)), mean taken over all

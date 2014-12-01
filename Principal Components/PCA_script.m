@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % PCA is a dimensionality reduction algorithm.
 % It finds a lower dimensional surface (plane) on which the data
 % points are projected. The found surface is so that it minimizes the square

@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [best_w, iter] = perceptronPocketBetterInitial_learningAlgo(X,Y,maxIter)
 % Perceptron Pocket Learning Algorithm. Pocket meaning that it keeps the
 % best solution so far with respect to the in-sample error.

@@ -1,4 +1,5 @@
-% FUNCTION THAT CREATES A NEW child FROM parents.
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function child = make_child(father,mother)
 
 n = size(father,2);

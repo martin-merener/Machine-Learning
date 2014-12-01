@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [alpha,b] = solveSVMviaQP(X,Y,C,kernelFun)
 % Solve SVM via Kernels, using QP
 

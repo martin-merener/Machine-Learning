@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % In this script we simulate data sets and use LR to classify (binary)
 
 d = 2; % space dimension

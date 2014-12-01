@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % In this script we compare SVM and PLA on linearly separable data
 
 d = 2; % space dimension

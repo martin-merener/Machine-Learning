@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function K = invmult_kXY(X,Y) 
 % Invmult Kernel is: k(x,y) = 1/sqrt(norm(x-y)^2+a^2)
 % The output here is: K_ij = k(X(i,:),Y(j,:))

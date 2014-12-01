@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [gammas, w] = learnRBFviaMyCG(NXMU,Y)
 %Given the centers, and the labeled data points, this function returns the
 %gammas for the RBF of choice (specified in radialOnNorms). It is assumed

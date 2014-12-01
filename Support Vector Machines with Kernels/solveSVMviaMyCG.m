@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [b,beta] = solveSVMviaMyCG(X,Y,lambda,kernelFun)
 % this function will find the optimal [b,beta] that minimizes the function primalCostGradCost(bbeta,lambda,K,Y) 
 % note: bbeta is just the relevant argument of the objective function here

@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [w, iter] = perceptron_learningAlgo(X,Y,maxIter)
 % Perceptron Learning Algorithm
 %(X,Y) form the training set (points and labels).

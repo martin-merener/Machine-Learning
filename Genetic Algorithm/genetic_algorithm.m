@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [max_fitnesses, last_fitnesses_decr, last_population_decr] = genetic_algorithm(new_population,nGen,q,select_criteria)
     % for input description see script.m
 

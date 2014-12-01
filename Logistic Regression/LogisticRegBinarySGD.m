@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % Script implementing Logistic Regression
 % No regularization; using simple SGD.
 % Source: Learning from Data, EdX course, Mostafa.

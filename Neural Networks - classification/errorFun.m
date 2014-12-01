@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [costs, dcosts] = errorFun(y_guess,y_true)
 % could be any smooth real-valued function with known analytical
 % derivative, easy to code, fast to compute.

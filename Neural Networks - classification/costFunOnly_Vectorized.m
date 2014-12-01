@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function cost = costFunOnly_Vectorized(W,X_train,Y_train,lambda,D)
 
 W = vect2cell(W,D);

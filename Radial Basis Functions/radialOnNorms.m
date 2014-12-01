@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [PHI,GRAD] = radialOnNorms(NXMU,gammas)
 % The matrix NXMU of size NxK is defined as NXMU_ij = norm(x_i-mu_j)
 % The matrix PHI of size NxK is defined as PHI_ij = R_j(norm(x_i-mu_j))

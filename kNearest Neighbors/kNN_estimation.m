@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 function Y_est = kNN_estimation(X_ref, Y_ref, X, K, estimationType)
 % Computing the estimation based on the optimal K.
 

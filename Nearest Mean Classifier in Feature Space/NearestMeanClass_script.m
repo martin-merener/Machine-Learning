@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % Script for the algorithm: Nearest Mean Classifier in a Feature Space.
 % Explained in Learning with Kernels, Scholkopf-Smola
 

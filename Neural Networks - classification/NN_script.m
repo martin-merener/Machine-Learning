@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % This is a NN implementation following the approach from Mostafa course, Learning from Data course (EdX)
 % Weight and Gradient are vectorized when possible.
 

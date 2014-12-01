@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function centroids = computeCentroids(X,idx,K)
 %returs the new centroids by computing the means of the data points assigned to each centroid.
 

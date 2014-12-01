@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function K = gauss_kXY(X,Y) 
 % Gaussian Kernel is: k(x,y) = exp(-norm(x-y)^2/(2a^2))
 % The output here is: K_ij = k(X(i,:),Y(j,:))

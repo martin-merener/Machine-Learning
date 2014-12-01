@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function cost = costFunOnly(W,X_train,Y_train,lambda)
 
 L = size(W,1)+1;

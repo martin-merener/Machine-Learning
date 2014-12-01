@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % Using Linear Regression with Regularization for Classification (one-vs-all)
 clear all
 
@@ -5,8 +8,8 @@ clear all
 % -------------------- INITIALIZATION -------------------------------------
 % --------------------                -------------------------------------
 %
-% IS ASSUMES THERE IS AN ARRAY trainSet, WITH LABELS IN FIRST COLUMN AND FEATURES IN ALL THE OTHERS
-% IS ASSUMES THERE IS AN ARRAY testSet, WITH LABELS IN FIRST COLUMN AND FEATURES IN ALL THE OTHERS
+% It is assumed that there is trainSet in memory, with labels in 1st column and features in the other columns
+% It is assumed that there is testSet in memory, with labels in 1st column and features in the other columns
 
 % Regularizer
 lambda = 1;

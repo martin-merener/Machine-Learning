@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [partOfData, reminderOfData] = separateData(data, p, useLabel)
 % Returns all points labeled, partitioned into two subsets, the first one
 % with p% of the points, and the second one with all the other points.

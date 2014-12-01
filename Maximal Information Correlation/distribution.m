@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function P = distribution(X,Y,n_x,n_y)
 %Given variables X,Y, P is the distribution on equally spaced n-by-m grid
 %on the scatter plot of X vs Y.

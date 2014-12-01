@@ -1,4 +1,7 @@
-function MI = mutualInformation(P)
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
+function MI = MICmutualInformation(P)
 %This function computes the mutual information between two variables, given
 %the join probability distribution P, assumed to be given as a matrix.
 %       |p(x_1,y_1) ... p(x_1,y_m)|

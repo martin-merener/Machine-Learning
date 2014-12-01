@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 function val = fitness(alpha) 
 
 pre_val = sum((alpha - (1:9)).^2);

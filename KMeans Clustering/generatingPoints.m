@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [X,trueIds,trueCentroids] = generatingPoints(m,d,K)
 % It creates a set of points, that can be used for training, validation or testing.
 % It creates m points in [0,1]^d. To generate the set of points, if first

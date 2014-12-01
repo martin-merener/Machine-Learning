@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % ANOMALY DETECTION
 % Given a set of points, assumed to be normal (labeled) 0, and given a new
 % point, the goal is to tell whether the new point is normal or if it is an

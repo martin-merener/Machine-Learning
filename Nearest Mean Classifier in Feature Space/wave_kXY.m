@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function K = wave_kXY(X,Y) 
 % Wave Wave is: k(x,y) = sin(norm(x-y)/a)/(norm(x-y)/a)
 % The output here is: K_ij = k(X(i,:),Y(j,:))

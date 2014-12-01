@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function NXMU = getNXMU(X,centers)
 %this is the NxK matrix, with entry i,j equal to norm(x_i - mu_j)
 

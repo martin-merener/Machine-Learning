@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function index_individual = select_bestHalf(fitnesses)
 
     N = size(fitnesses,1);

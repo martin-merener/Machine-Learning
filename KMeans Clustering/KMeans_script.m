@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
 % K-MEANS CLUSTERING. 
 % 1) Initialize centroids
 % 2) Iterate:

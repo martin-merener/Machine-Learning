@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function W_vect = cell2vect(W,D)
 
 lengths = (D(1:end-1)+1).*D(2:end);

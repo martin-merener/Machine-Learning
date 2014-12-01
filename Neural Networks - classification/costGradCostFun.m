@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [cost, GRAD] = costGradCostFun(W,X_train,Y_train,lambda,nClasses)
 
 % type of regularization:

@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function K = lap_kXY(X,Y) 
 % Laplacian Kernel is: k(x,y) = exp(-norm(x-y)/a)
 % The output here is: K_ij = k(X(i,:),Y(j,:))

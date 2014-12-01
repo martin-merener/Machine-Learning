@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [X,S] = forwardProp(W,X_train)
 
 L = size(W,1)+1;

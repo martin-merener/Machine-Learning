@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
 function [cost, GRAD_vect] = costGradCostFun_Vectorized(W_vect,X_train,Y_train,lambda,nClasses,D)
 
 L = length(D);

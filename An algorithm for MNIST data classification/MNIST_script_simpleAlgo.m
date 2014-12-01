@@ -1,4 +1,7 @@
-% A rather simple classification algorithm for the Kaggle MNIST competition
+% Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
+% ------------------------------------------------------%
+
+% A simple classification algorithm for the Kaggle MNIST competition
 
 
 %----------------------- DATA FOR -----------------------------------------
