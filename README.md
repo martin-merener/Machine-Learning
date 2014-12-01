@@ -21,4 +21,4 @@ Some of these techniques were implemented via different approaches. For example,
 - k-Nearest Neighbors
 
 
-For any questions you can write me to martin.merener@gmail.com
+To contact me: martin.merener@gmail.com
