@@ -36,8 +36,6 @@ mus = mean(X_normal_d,1); % the means of each feature
 Sigma = (1/nNormal)*(X_normal_d - repmat(mus,nNormal,1))'*(X_normal_d - repmat(mus,nNormal,1)); % covariance matrix
 p = @(X) 1/((2*pi)^(d/2)*sqrt(det(Sigma)))*exp(-0.5*diag((X-repmat(mus,size(X,1),1))*pinv(Sigma)*(X-repmat(mus,size(X,1),1))'));
 
-%p = @(X) 1/((2*pi)^(d/2)*sqrt(det(Sigma)))*exp(-0.5*(X-repmat(mus,size(X,1),1))*pinv(Sigma)*(X-repmat(mus,size(X,1),1))');
-
 
 % -------------------- EPSILON-THRESHOLD SELECTION ------------------------
 % ------------------------------------------------------------------------- 
@@ -69,8 +67,8 @@ y_estimation = p_val<bestEpsilon; % estimation normal/abnormal according to the 
 false_normals = sum((y_estimation==0).*(y_val==1));
 false_abnormals = sum((y_estimation==1).*(y_val==0));
 
-if d==2 && strcmp(problemToSolve,'classification')==1
-     
+if d==2
+    
     figure                                                       
     subplot(2,2,1);
     scatter(X_normal_d(:,1),X_normal_d(:,2),3);      
