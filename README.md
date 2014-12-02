@@ -14,10 +14,11 @@ Some of these techniques were implemented via different approaches. For example,
 - Nearest Mean Classifier with Kernels
 - Logistic Regression
 - Genetic Algorithms
+- Anomaly Detection
+- Recommender System via Collaborative Filtering
 - Perceptron Learning Algorithm
 - Maximal Information Correlation
 - Principal Components Analysis
-- Anomaly Detection
 - Linear Regression
 - k-Nearest Neighbors
 - An algorithm for MNIST digits classification
