@@ -37,6 +37,7 @@ while iter<iterBound && bbetaChange>=bbetaChangeBound
     objectiveFun = @(t)primalCostOnly(bbeta0+t*direction,lambda,K,Y); 
     options = optimoptions(@fminunc,'Algorithm','quasi-newton','Diagnostics','off','Display','off');  
     nu = fminunc(objectiveFun,1,options); % steepest nu in the gradient direction
+    
     bbeta1 = bbeta0+nu*direction; 
     bbetaChange = norm(bbeta1-bbeta0);
     bbeta0 = bbeta1; % ready for next iteration
