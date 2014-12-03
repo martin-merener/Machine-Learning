@@ -35,7 +35,6 @@ while iter<iterBound && bbetaChange>=bbetaChangeBound
     end    
     gradBefore = grad;
     directionBefore = direction;
-    %objectiveFun = @(t)objectiveFunMYCG(t,bbeta0,direction,lambda,K,Y);
     objectiveFun = @(t)primalCostOnly(bbeta0+t*direction,lambda,K,Y); 
     options = optimoptions(@fminunc,'Algorithm','quasi-newton','Diagnostics','off','Display','off');  
     nu = fminunc(objectiveFun,1,options); % steepest nu in the gradient direction
