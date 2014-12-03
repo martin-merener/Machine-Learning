@@ -31,6 +31,8 @@ To use these implementations you can start with any of the following scripts (in
 
 8) SVM_script_clsMultKernelCG.m: binary/multiclass classification for non-linearly separable data via Conjugate Gradient minimization.
 
+9) SVM_script_clsMultKernelMiniBatchCG.m: binary/multiclass classification for non-linearly separable data, via mini-batch Conjugate Gradient. In particular, it includes: stochastic conjugate gradient, and plain conjugate gradient (i.e., implementation 8), and interesting cases in between, e.g., a mini-batch of 10% of the training set.
+
 
 Each script contains a source for the explanation behind the technique employed.
 
