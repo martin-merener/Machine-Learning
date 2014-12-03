@@ -1,7 +1,7 @@
 % Martin Merener, martin.merener@gmail.com, 01-Dec-2014 %
 % ------------------------------------------------------%
 function [b,beta] = solveSVMviaNewton(X,Y,lambda,kernelFun)
-% Solve SVM via Kernels, using QP
+% Solve SVM via Kernels, using Newton approach as explained in 'Training a Support Vector Machine in the Primal', by Olivier Chapelle
 
 N = size(Y,1);
 K = feval(kernelFun,X,X); % % relation #pts vs seconds: (40000, 22), (30000,12), (20000,5), (10000,2)

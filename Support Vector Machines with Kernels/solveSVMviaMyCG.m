@@ -2,7 +2,9 @@
 % ------------------------------------------------------%
 function [b,beta] = solveSVMviaMyCG(X,Y,lambda,kernelFun)
 % this function will find the optimal [b,beta] that minimizes the function primalCostGradCost(bbeta,lambda,K,Y) 
-% note: bbeta is just the relevant argument of the objective function here
+% note: bbeta is just the relevant argument of the objective function here.
+% Finds optimal b, beta minimizing the primal formulation (see 'Training a Support Vector Machine in the Primal', by Olivier Chapelle) using CG 
+
 
 N = size(Y,1);
 K = feval(kernelFun,X,X);
