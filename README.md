@@ -20,6 +20,7 @@ They were all coded in Matlab from scratch (using only built-in Matlab functions
 - Linear Regression
 - k-Nearest Neighbors
 - A digit recognizer simple algorithm with 97.9% accuracy (MNIST-Kaggle competition) 
+- Bioinformatics (Pyton implementations of algorithms in http://bioinformaticsalgorithms.com/)
 
 Some of these techniques were implemented via different approaches. For example, SVM is implemented solving the dual via QP, and is also implemented minimizing the primal via gradient methods, such as Newton, and Conjugate Gradient.
 
