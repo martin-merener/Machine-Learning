@@ -1,3 +1,5 @@
+% Martin Merener, martin.merener@gmail.com, 03-Dec-2014 %
+% ------------------------------------------------------%
 function [b,beta] = solveSVMviaMiniBatchCG(X,Y,lambda,kernelFun,batchFraction)
 % this function will find the optimal [b,beta] that minimizes the function primalCostGradCost(bbeta,lambda,K,Y) 
 % note: bbeta is just the relevant argument of the objective function here

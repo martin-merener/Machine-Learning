@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 03-Dec-2014 %
+% ------------------------------------------------------%
+
 function [cost, grad] = primalBatchCostGradCost(bbeta,lambda,K,Y,batch)
 % A mini-batch implementation on top of the approach in 'Training a Support Vector Machine in the Primal', by Olivier Chapelle)
 % NOTE: the cost is with respect to ALL training points WHILE the gradient is with respect to the batch. 

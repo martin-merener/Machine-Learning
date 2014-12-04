@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 03-Dec-2014 %
+% ------------------------------------------------------%
+
 % Script implementing the approach in 'Training a Support Vector Machine in the Primal', by Olivier Chapelle
 % In addition to the technique described in the paper, this implementation incorporates 'mini-batch' gradient computation, 
 % which in particular includes, as extreme cases, (1) Stochastic Gradient, and (2) Batch Gradient (in both cases we construct the 'conjugate' direction).

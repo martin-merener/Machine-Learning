@@ -1,3 +1,6 @@
+% Martin Merener, martin.merener@gmail.com, 03-Dec-2014 %
+% ------------------------------------------------------%
+
 function cost = primalBatchCostOnly_OnlyToCheckGradOfMiniBatch(bbeta,lambda,K,Y,batch)
 % computes the cost with respect to the BATCH. ONLY USED TO CHECK THE GRADIENT OF THE MINI-BATCH implementation
 
