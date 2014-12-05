@@ -5,7 +5,7 @@ This directory contains my implementations of different ML techniques.
 
 They were all coded in Matlab from scratch (using only built-in Matlab functions).
 
-- Support Vector Machines with Kernels (including a very efficient mini-batch conjugate gradient implementation)
+- Support Vector Machines with Kernels (including an efficient mini-batch conjugate gradient implementation)
 - Radial Basis Functions
 - Neural Networks
 - K-means Clustering
