@@ -15,7 +15,7 @@ directionBefore = zeros(N,1);
 epocBound = 1000;
 epoc = 0; % initialize
 bestCost = Inf;
-bestCosts = [Inf,1];
+bestCosts = [10^90,10^80];
 
 while epoc<epocBound && 1-bestCosts(2)/bestCosts(1)> 0.005
 
